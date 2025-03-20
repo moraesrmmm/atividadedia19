@@ -87,16 +87,16 @@ const App = () => {
     </div>
 
     <div style={{ padding: '20px', maxWidth: '800px', margin: '40px auto' }}>
-    <h2 style={{ textAlign: 'center' }}>Blog</h2>
-    {posts.map((post) => (
-      <div key={post.id} style={{ border: '1px solid #ddd', padding: '16px', marginBottom: '16px', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)', backgroundColor: '#fafafa'
-        }}>
-        <img src={`https://source.unsplash.com/800x400/?nature,water&sig=${post.id}`} alt="Post" style={{ width: '100%', borderRadius: '8px', marginBottom: '12px' }}
-        />
-        <h3 style={{ marginBottom: '8px', color: '#333' }}>{post.title}</h3>
-        <p style={{ color: '#555', lineHeight: '1.6' }}>{post.body}</p>
-      </div>
-    ))}
+      <h2 style={{ textAlign: 'center' }}>Blogggg</h2>
+      {posts.map((post) => (
+        <div key={post.id} style={{ border: '1px solid #ddd', padding: '16px', marginBottom: '16px', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)', backgroundColor: '#fafafa'
+            }}>
+            <img src={`https://source.unsplash.com/800x400/?nature,water&sig=${post.id}`} alt="Post" style={{ width: '100%', borderRadius: '8px', marginBottom: '12px' }}
+            />
+            <h3 style={{ marginBottom: '8px', color: '#333' }}>{post.title}</h3>
+            <p style={{ color: '#555', lineHeight: '1.6' }}>{post.body}</p>
+        </div>
+      ))}
     </div>
   </div>
   );
